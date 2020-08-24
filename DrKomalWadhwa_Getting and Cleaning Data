@@ -1,4 +1,4 @@
-setwd("C:/Users/komal wadhwa/Desktop/UCI HAR Dataset")
+setwd("~/Desktop/UCI HAR Dataset")
 library(plyr)
 library(data.table)
 subjectTrain = read.table('./train/subject_train.txt',header=FALSE)
